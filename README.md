@@ -1,7 +1,8 @@
 # redistore
 
-[![GoDoc](https://godoc.org/github.com/boj/redistore?status.svg)](https://godoc.org/github.com/boj/redistore)
-[![Build Status](https://travis-ci.org/boj/redistore.svg?branch=master)](https://travis-ci.org/boj/redistore)
+This is a fork of the (apparently unmaintained) version by Brian Jones: https://github.com/boj/redistore
+
+[![GoDoc](https://godoc.org/github.com/wneessen/redistore?status.svg)](https://godoc.org/github.com/wneessen/redistore)
 
 A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions).
 
@@ -11,11 +12,11 @@ Depends on the [Redigo](https://github.com/gomodule/redigo) Redis library.
 
 ## Installation
 
-    go get gopkg.in/boj/redistore.v1
+    go get gopkg.in/wneessen/redistore
 
 ## Documentation
 
-Available on [godoc.org](http://www.godoc.org/gopkg.in/boj/redistore.v1).
+Available on [godoc.org](http://www.godoc.org/gopkg.in/wneessen/redistore).
 
 See http://www.gorillatoolkit.org/pkg/sessions for full documentation on underlying interface.
 
